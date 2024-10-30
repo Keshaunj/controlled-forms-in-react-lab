@@ -29,6 +29,7 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: black;
 }
 
 .formDiv {
@@ -47,6 +48,7 @@ input {
   flex-wrap: wrap;
   width: 90%;
   margin-top: 20px;
+  color: black;
 }
 
 .bookCard {
