@@ -12,5 +12,9 @@ const Bookshelf = () => {
     </div>
   );
 };
+const [books,setBooks] = useState([
+  { tilte: 'Fourth Wing', author: 'Rebecca Yarros'},
+  {title: 'The Lion, the Wicth and the Wardrobe',author: 'C.S.'}
+])
 
 export default Bookshelf

@@ -1,23 +1,14 @@
-import { useState } from 'react'
-import Bookshelf from './Bookshelf.jsx';
-import './app.css';
+import { useState } from "react";
+import Bookshelf from "./Bookshelf.jsx";
+import "./app.css";
 
-const App = ()=>{
+const App = () => {
   return (
-<>
-<h1> My Bookshelf</h1>
-<Bookshelf/>
-
-
-
-
-</>
-
-
+    <>
+      <h1> My Bookshelf</h1>
+      <Bookshelf />
+    </>
   );
 };
-
-
-
 
 export default App;
