@@ -5,7 +5,7 @@ const Bookshelf = () => {
   
   const [books, setBooks] = useState([
     { title: 'PePe University', author: 'Macrus Pepe' },
-    { title: 'The Changed Man, and the Digital Law', author: 'Keshaun D jones' }
+    { title: 'The Changed Man, and the Digital Law', author: 'Keshaun D Jones' }
   ]);
 
   const [formData, setFormData] = useState({
@@ -25,7 +25,7 @@ const Bookshelf = () => {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     setBooks([...books, formData]); 
-    setFormData({ title: '', author: '' }); n
+    setFormData({ title: '', author: '' }); 
   };
 
   return (
