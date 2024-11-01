@@ -10,16 +10,18 @@ body {
   justify-content: center;
   min-width: 100vw;
   min-height: 100vh;
-  background-color:cadetblue;
+  background-color:rgb(6, 173, 179);
 }
 form {
   display: flex;
   flex-direction: column;
   width: 90%;
+  
 }
 
 input {
   padding: 5px;
+ 
 }
 
 .bookshelfDiv {
@@ -29,17 +31,19 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: black;
+  color:black;
 }
 
 .formDiv {
   width: 60%;
-  border: 1px solid white;
+  border: 5px solid rgb(37, 11, 11);
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
+  
 }
 
 .bookCardsDiv {
@@ -62,4 +66,22 @@ input {
   margin: 15px 10px;
   background-color: rgb(155, 155, 155);
   color: black;
+}
+
+.SubmitBttn{
+  border-radius:  5px; 
+  cursor: pointer;
+  opacity: 0.8;
+    background: burlywood;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease; /* Animation effect on hover */
+  
+  
+ 
+    transform: scale(1.05); /* Slightly enlarges button on hover */
+  
+  
 }
